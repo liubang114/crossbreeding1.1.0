@@ -63,7 +63,7 @@ public class CrossbreedingCropBlock extends CropBlock implements EntityBlock {
         if (age == 0) {
             Genome genome = getGenome(level, pos);
             if (genome != null && !genome.isDominant(Gene.B)) {
-                if (random.nextInt(5) == 0) {
+                if (random.nextInt(2) == 0) {
                     level.removeBlockEntity(pos);
                     level.setBlock(pos, ModBlocks.DISEASED_WHEAT.get().defaultBlockState(),
                             Block.UPDATE_ALL);
