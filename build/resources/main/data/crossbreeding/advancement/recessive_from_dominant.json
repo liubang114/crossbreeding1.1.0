@@ -1,0 +1,14 @@
+{
+  "parent": "crossbreeding:outcross",
+  "display": {
+    "icon": { "id": "crossbreeding:crossbreeding_wheat" },
+    "title": { "text": "无中生有为隐性，有中生无为显性" },
+    "description": { "text": "首次合成出亲本均表现为显性、而子代表现为隐性的性状" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "impossible": { "trigger": "minecraft:impossible" }
+  }
+}

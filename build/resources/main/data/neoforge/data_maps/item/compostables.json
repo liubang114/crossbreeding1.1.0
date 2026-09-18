@@ -1,0 +1,28 @@
+{
+  "values": {
+    "crossbreeding:crossbreeding_seed": {
+      "chance": 0.3
+    },
+    "crossbreeding:female_gamete": {
+      "chance": 0.3
+    },
+    "crossbreeding:male_gamete": {
+      "chance": 0.3
+    },
+    "crossbreeding:crossbreeding_wheat": {
+      "chance": 0.65
+    },
+    "crossbreeding:plain_bread": {
+      "chance": 0.85
+    },
+    "crossbreeding:high_nutrition_bread": {
+      "chance": 0.85
+    },
+    "crossbreeding:high_saturation_bread": {
+      "chance": 0.85
+    },
+    "crossbreeding:high_nutrition_saturation_bread": {
+      "chance": 0.85
+    }
+  }
+}

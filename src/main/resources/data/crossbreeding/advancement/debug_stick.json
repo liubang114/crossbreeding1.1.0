@@ -1,0 +1,14 @@
+{
+  "parent": "crossbreeding:obtain_seed",
+  "display": {
+    "icon": { "id": "crossbreeding:gene_debug_stick" },
+    "title": { "text": "创哥理赔" },
+    "description": { "text": "首次使用基因调试棒" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "impossible": { "trigger": "minecraft:impossible" }
+  }
+}
